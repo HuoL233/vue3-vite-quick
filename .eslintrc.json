@@ -1,0 +1,26 @@
+{
+  "parser": "vue-eslint-parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/vue3-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "sourceType": "module",
+    "ecmaVersion": 2020
+  },
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    "quotes": "off",
+    "@typescript-eslint/quotes": ["error", "single"],
+    "semi": "off",
+    "@typescript-eslint/semi": ["error"],
+    "@typescript-eslint/no-empty-interface": "off"
+  },
+  "root": true
+}
